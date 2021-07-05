@@ -1,0 +1,8 @@
+1.Check null in js
+!!value
+2.Multiple condition checking
+if (value === 1 || value === 'one' || value === 2 || value === 'two') { }
+=>
+if ([1, 'one', 2, 'two'].indexOf(value) >= 0) { }
+
+if ([1, 'one', 2, 'two'].includes(value)) { }
